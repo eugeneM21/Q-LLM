@@ -1,0 +1,9 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7440,11.404,20.49,62,5.44
+Output 0,"According to the document, some examples of AI mentioned are:
+
+* Generative AI models, such as generative pre-trained transformers (GPT)
+* Web scraping and content scraping
+* Cloud infrastructure and computing power from data centers
+
+These examples are mentioned in the context of the capabilities and applications of Artificial Intelligence."

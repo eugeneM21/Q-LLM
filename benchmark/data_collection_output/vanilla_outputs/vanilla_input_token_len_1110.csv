@@ -1,0 +1,11 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+1110,6.689,16.03,130,19.44,"According to the document, some examples of AI include:
+
+1. Advanced web search engines (e.g., Google Search)
+2. Recommendation systems (used by YouTube, Amazon, and Netflix)
+3. Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+4. Autonomous vehicles (e.g., Waymo)
+5. Generative and creative tools (e.g., ChatGPT and AI art)
+6. Superhuman play and analysis in strategy games (e.g., chess and Go)
+
+These examples illustrate the various applications of AI in different domains, such as search, recommendation, virtual assistants, autonomous vehicles, and creative tools."

@@ -1,0 +1,11 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+7622,15.773,21.54,200,12.68,"Here are some examples of AI mentioned in the document:
+
+1. Chatbots: ChatGPT, Copilot, Gemini, and LLaMA are examples of chatbots that use generative AI to converse with users.
+2. Virtual assistants: Virtual assistants like Siri and Alexa use AI to perform tasks and answer questions.
+3. Autonomous vehicles: AI is used in autonomous vehicles, such as self-driving cars and drones, to make decisions and navigate.
+4. Game-playing systems: AI-powered game-playing systems like AlphaGo and Deep Blue have beaten human champions in chess and Go.
+5. Language translation: AI-powered language translation systems like Google Translate and Microsoft Translator can translate text and speech from one language to another.
+6. Image recognition: AI-powered image recognition systems can identify objects, people, and scenes in images and videos.
+7. Predictive analytics: AI-powered predictive analytics systems can analyze data to predict outcomes and make decisions.
+8. Robotics: AI-powered robots are used in manufacturing, healthcare"

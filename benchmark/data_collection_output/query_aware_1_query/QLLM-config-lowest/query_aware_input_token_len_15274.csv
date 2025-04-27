@@ -1,0 +1,9 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+15274,23.103,21.28,114,4.93
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+* High-level ""intelligent"" tasks that AI can perform easily, such as high-level ""intelligent"" tasks
+* Low-level ""instinctive"" tasks that AI finds extremely difficult, such as unconscious instinct and having a ""feel"" for the situation
+* Statistical AI programs that can make decisions, but may be difficult or impossible to understand why they made a particular decision
+
+Note that these examples are not necessarily specific AI systems or applications, but rather general concepts and capabilities mentioned in the document."

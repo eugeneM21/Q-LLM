@@ -1,0 +1,9 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+624,5.713,15.77,60,10.5
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+* Deep learning
+* Transformer architecture
+* Generative AI
+
+These are mentioned as examples of advancements in the field of Artificial Intelligence, particularly in the context of the AI boom and its rapid progress in the early 2020s."

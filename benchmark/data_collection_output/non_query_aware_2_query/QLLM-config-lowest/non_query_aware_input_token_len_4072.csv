@@ -1,0 +1,14 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+2036,9.602,19.2,150,15.62
+Output 0,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Netflix, and others)
+* Virtual assistants (e.g., Siri, Alexa)
+* Generative pre-trained transformer (GPT) language models that can generate coherent text and achieve human-level scores on various tests and applications."
+Output 1,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Netflix, and others)
+* Virtual assistants (e.g., Siri, Alexa)
+* Generative pre-trained transformer (GPT) language models that can generate coherent text and achieve human-level scores on various tests and applications."

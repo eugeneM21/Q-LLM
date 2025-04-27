@@ -1,0 +1,9 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+15274,22.092,21.28,93,4.21
+Output 0,"According to the document, some examples of AI mentioned are:
+
+* Web search engines (e.g., Google)
+* Commercial programs (e.g., COMPAS, a program used in U.S. courts to assess the likelihood of recidivism)
+* Language models (e.g., GPT-3, a large language model that can generate human-like text)
+
+These examples illustrate the various applications of Artificial Intelligence, including problem-solving, decision-making, and language processing."

@@ -1,0 +1,10 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7855,12.117,21.02,84,6.93
+Output 0,"Based on the document, some examples of AI mentioned are:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Amazon Alexa)
+* ChatGPT (a search engine that uses 10 times the electrical energy as a Google search)
+
+These are mentioned as high-profile applications of AI in the document."

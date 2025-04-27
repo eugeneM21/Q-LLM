@@ -1,0 +1,11 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+7662,15.806,21.58,200,12.65,"Here are some examples of AI mentioned in the document:
+
+1. Generative pre-trained transformers (GPT) and large language models (LLMs) such as ChatGPT, Gemini, Claude, LLaMA, and Mistral.
+2. AlphaFold 2, a protein structure prediction AI model that can approximate the 3D structure of a protein in hours instead of months.
+3. AlphaStar, a grandmaster-level AI agent that can play StarCraft II.
+4. Qwen2-Math, a language model that achieved state-of-the-art performance on several mathematical benchmarks.
+5. rStar-Math, a technique that leverages Monte Carlo tree search and step-by-step reasoning to solve mathematical problems.
+6. AlphaTensor, AlphaGeometry, and AlphaProof, AI models developed by Google DeepMind for solving mathematical problems.
+7. Stable Diffusion, Midjourney, and DALL-E, AI models for generating text-to-image and text-to-video content.
+8. S"

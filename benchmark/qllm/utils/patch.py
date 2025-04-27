@@ -43,9 +43,11 @@ def patch_hf(
     # This approach lacks scalability and will be refactored.
     from qllm.models.modeling_llama import LlamaForCausalLM, LlamaAttention, LlamaModel, BaseModelOutputWithPast
     from qllm.models.modeling_mistral import MistralForCausalLM, MistralAttention, MistralModel
-    from llava.model.language_model.llava_llama import LlavaLlamaForCausalLM, LlavaLlamaModel
-    from llava.model.language_model.llava_mistral import LlavaMistralForCausalLM, LlavaMistralModel
-
+    #from llava.model.language_model.llava_llama import LlavaLlamaForCausalLM, LlavaLlamaModel
+    #from llava.model.language_model.llava_mistral import LlavaMistralForCausalLM, LlavaMistralModel
+    #print("model start :", model)
+    #print("hyperparams: ",attn_kwargs)
+    
     def model_forward(
         self,
         input_ids: torch.LongTensor = None,
@@ -96,6 +98,7 @@ def patch_hf(
         all_self_attns = () if output_attentions else None
 
         for i, decoder_layer in enumerate(self.layers):
+            #print("Decode layer: ", decoder_layer)
             if output_hidden_states:
                 all_hidden_states += (hidden_states,)
 
@@ -132,8 +135,12 @@ def patch_hf(
             hidden_states=all_hidden_states,
             attentions=all_self_attns,
         )
-
+    #print("ATTN_FORWRAD[attn_type](**attn_kwargs): ", ATTN_FORWRAD[attn_type](**attn_kwargs))
+    
     forward = huggingface_forward(ATTN_FORWRAD[attn_type](**attn_kwargs))
+    #print("model: ", model) LlamaForCausalLM (for Llama3_8B)
+    #print("forward: ", forward)
+    
 
     if isinstance(model, LlamaForCausalLM):
         Attention = LlamaAttention
@@ -169,6 +176,7 @@ def patch_hf(
 
     model.model._old_forward = model.model.forward
     model.model.forward = model_forward.__get__(model.model, Model)
+    #print("model end :", model)
 
     return model
 

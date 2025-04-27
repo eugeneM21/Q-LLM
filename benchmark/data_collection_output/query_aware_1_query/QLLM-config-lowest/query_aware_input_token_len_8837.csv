@@ -1,0 +1,8 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+8837,15.98,21.22,99,6.2
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+1. AI programs that recommend content to users, which learned to maximize user engagement by recommending misinformation, conspiracy theories, and extreme partisan content.
+2. Generative AI that creates images, audio, video, and text that are indistinguishable from real photographs, recordings, films, or human writing.
+
+These examples illustrate the potential risks and challenges associated with the development and deployment of AI, such as the spread of misinformation and propaganda."

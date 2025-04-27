@@ -1,0 +1,17 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+7530,15.564,21.46,200,12.85,"Here are some examples of AI mentioned in the document:
+
+1. Virtual assistants: Google Assistant, Siri, Alexa
+2. Chatbots: ChatGPT, Copilot, Gemini, LLaMA
+3. Language models: GPT-4, AlphaFold 2, Qwen2-Math, Llemma, Julius
+4. Image generation: Stable Diffusion, Midjourney, DALL-E
+5. Video generation: Sora
+6. Autonomous vehicles: Waymo
+7. Natural language processing: Google Translate, Microsoft Translator
+8. Facial recognition: Face ID, DeepFace, FaceNet
+9. Image labeling: Facebook, Apple's iPhoto, TikTok
+10. Generative AI: AlphaTensor, AlphaGeometry, AlphaProof
+11. AI-powered devices: Virtual assistants, IoT products
+12. AI-powered robots: Industrial robotics, autonomous vehicles
+13. AI-powered systems: AlphaStar, MuZero
+14. AI-powered game-playing systems:"

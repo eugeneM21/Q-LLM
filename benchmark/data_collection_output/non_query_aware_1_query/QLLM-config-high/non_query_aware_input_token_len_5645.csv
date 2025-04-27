@@ -1,0 +1,16 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+5645,16.72,19.5,154,9.21
+Output 0,"Here are some examples of AI mentioned in the document:
+
+1. Google Search
+2. YouTube recommendation system
+3. Amazon recommendation system
+4. Netflix recommendation system
+5. Virtual assistants: Google Assistant, Siri, Alexa
+6. Autonomous vehicles: Waymo
+7. Generative and creative tools: ChatGPT, AI art
+8. Game playing programs: Deep Blue, Watson, AlphaGo, AlphaStar
+9. Large language models: GPT-4, Gemini, Claude, LLaMa, Mistral
+10. Qwen models: Qwen2-Math, Qwen-7B
+11. AlphaTensor, AlphaGeometry, AlphaProof (from Google DeepMind)
+12. Llemma (from EleutherAI) or Julius"

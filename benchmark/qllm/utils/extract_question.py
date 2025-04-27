@@ -85,3 +85,18 @@ def extract_question_id(dataset=None, tokenizer=None, tokenized_prompt=None, dat
 
     st, ed = find_subtensor(tokenized_prompt, tokenized_question[tokenized_question != tokenizer.pad_token_id])
     return st, ed
+
+
+def extract_question_id_quick_start(dataset=None, tokenizer=None, tokenized_prompt=None, question=None):
+    if question is None:
+        assert dataset is not None
+        if dataset == 'AI_wikipedia':
+            question = 'Question: Provide some examples of AI from the document. Answer this question clearly and concisely.'
+        
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+    tokenized_question = tokenizer(
+        question, truncation=False, return_tensors="pt", add_special_tokens=False, padding=True,
+    ).input_ids
+
+    st, ed = find_subtensor(tokenized_prompt, tokenized_question[tokenized_question != tokenizer.pad_token_id])
+    return st, ed

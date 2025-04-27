@@ -1,0 +1,16 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+5645,16.324,19.25,151,9.25
+Output 0,"Here are some examples of AI mentioned in the document:
+
+1. Google Search
+2. YouTube recommendation system
+3. Virtual assistants like Google Assistant, Siri, and Alexa
+4. Autonomous vehicles like Waymo
+5. Generative pre-trained transformers (GPT) language models
+6. AlphaGo, a computer Go-playing system
+7. Qwen models, including Qwen2-Math and Qwen-7B
+8. AlphaTensor, AlphaGeometry, and AlphaProof, mathematical problem-solving models from Google DeepMind
+9. Llemma, a mathematical problem-solving model from EleutherAI
+10. Julius, a mathematical problem-solving model
+
+These are just a few examples of the many AI systems and models mentioned in the document."

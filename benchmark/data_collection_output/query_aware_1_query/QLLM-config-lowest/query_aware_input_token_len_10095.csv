@@ -1,0 +1,8 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+10095,16.813,21.22,101,6.01
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+1. A system that classifies images with a ruler as ""cancerous"" because pictures of malignancies typically include a ruler to show the scale.
+2. A machine learning system that classifies patients with asthma as being at ""low risk"" of dying from pneumonia, despite asthma being a severe risk factor.
+
+These examples illustrate the potential biases and limitations of AI systems, highlighting the need for transparency and explainability in AI decision-making."

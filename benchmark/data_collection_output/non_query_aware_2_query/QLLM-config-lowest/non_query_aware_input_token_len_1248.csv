@@ -1,0 +1,20 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+624,7.786,16.44,158,20.29
+Output 0,"According to the document, some examples of AI mentioned are:
+
+* Advanced generative AI
+* Deep learning
+* Transformer architecture
+* Recommendation systems (used by YouTube, Netflix, and other platforms)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+
+Note that these are not the only examples of AI, but rather specific types or applications of AI mentioned in the document."
+Output 1,"According to the document, some examples of AI mentioned are:
+
+* Advanced generative AI
+* Deep learning
+* Transformer architecture
+* Recommendation systems (used by YouTube, Netflix, and other platforms)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+
+Note that these are not the only examples of AI, but rather specific types or applications of AI mentioned in the document."

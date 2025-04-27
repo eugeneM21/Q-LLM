@@ -1,0 +1,7 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+8576,14.02,21.22,83,5.92
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+* Generative AI (mentioned in the context of Ubitus, a cloud gaming services company, looking for land near a nuclear power plant to build a new data center for generative AI)
+
+Note that the document does not provide many specific examples of AI, but rather mentions AI in the context of its relationship with nuclear power plants and data centers."

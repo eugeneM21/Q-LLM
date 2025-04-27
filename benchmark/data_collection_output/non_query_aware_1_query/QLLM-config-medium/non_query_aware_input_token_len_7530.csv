@@ -1,0 +1,13 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7530,15.974,20.71,136,8.51
+Output 0,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+* Autonomous vehicles
+* Generative AI models (e.g., GPT, transformers)
+* Generative pre-trained transformers (GPT) that generate text based on semantic relationships
+* AI-powered language models (e.g., GPT-4, Gemini, Claude, LLaMA)
+* AI-powered computer vision systems that analyze images and videos
+* AI-powered natural language processing systems that can understand and generate human language."

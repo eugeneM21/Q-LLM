@@ -1,0 +1,9 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+6252,13.316,19.34,97,7.28
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+1. Chatbots: ChatGPT, Copilot, Gemini, and LLaMA
+2. Text-to-image artificial intelligence image generation systems: Stable Diffusion, Midjourney, and DALL-E
+3. Text-to-video AI generators: Sora
+
+These are examples of generative AI models developed by companies such as OpenAI, Anthropic, Microsoft, Google, and Baidu, among others."

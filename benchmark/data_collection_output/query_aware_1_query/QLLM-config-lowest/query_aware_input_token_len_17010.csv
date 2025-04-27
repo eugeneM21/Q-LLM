@@ -1,0 +1,12 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+17010,29.111,21.28,159,5.46
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+1. Multivac, a super-intelligent computer introduced by Isaac Asimov in his stories.
+2. Robots from various films, such as:
+	* Gort from the film ""The Day the Earth Stood Still"" (not explicitly mentioned in the document, but mentioned as an example of a robot in the context of AI)
+	* David from the film ""A.I. Artificial Intelligence""
+	* Ava from the film ""Ex Machina""
+3. Androids from the novel ""Do Androids Dream of Electric Sheep?"" by Philip K. Dick.
+
+Note that these examples are not exhaustive, as the document only provides a few specific instances of AI, but they are the ones mentioned in the provided text."

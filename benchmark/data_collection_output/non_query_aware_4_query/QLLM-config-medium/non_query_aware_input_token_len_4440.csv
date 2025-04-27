@@ -1,0 +1,38 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+1110,11.781,20.08,384,32.6
+Output 0,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+* Autonomous vehicles (e.g., Waymo)
+* Generative and creative tools (e.g., ChatGPT and AI art)
+
+These examples are mentioned in the first paragraph of the document as high-profile applications of AI."
+Output 1,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+* Autonomous vehicles (e.g., Waymo)
+* Generative and creative tools (e.g., ChatGPT and AI art)
+
+These examples are mentioned in the first paragraph of the document as high-profile applications of AI."
+Output 2,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+* Autonomous vehicles (e.g., Waymo)
+* Generative and creative tools (e.g., ChatGPT and AI art)
+
+These examples are mentioned in the first paragraph of the document as high-profile applications of AI."
+Output 3,"According to the document, some examples of AI include:
+
+* Advanced web search engines (e.g., Google Search)
+* Recommendation systems (used by YouTube, Amazon, and Netflix)
+* Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+* Autonomous vehicles (e.g., Waymo)
+* Generative and creative tools (e.g., ChatGPT and AI art)
+
+These examples are mentioned in the first paragraph of the document as high-profile applications of AI."

@@ -1,0 +1,7 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+8576,14.489,21.22,88,6.07
+Output 0,"Based on the document, some examples of AI mentioned are:
+
+* Generative AI (mentioned in the context of Ubitus' plan to build a new data center near a nuclear power plant in Japan)
+* Cloud gaming services (mentioned as an application of AI, specifically in the context of Ubitus' business)
+* Language models (mentioned as ""large language models"" in the context of GPT, Gemini, and Llama)"

@@ -1,0 +1,12 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7093,15.831,20.29,134,8.46
+Output 0,"Here are some examples of AI mentioned in the document:
+
+1. Advanced web search engines (e.g., Google Search)
+2. Recommendation systems (used by YouTube, Amazon, and Netflix)
+3. Virtual assistants (e.g., Google Assistant, Siri, and Alexa)
+4. Autonomous vehicles (e.g., Waymo)
+5. Generative pre-trained transformers (GPT) language models
+6. Virtual assistants that can engage in conversations or banter humorously
+7. AI-powered devices and services that collect personal information (e.g., virtual assistants, IoT products)
+8. Machine learning algorithms used in various industries, including finance, healthcare, and space exploration."

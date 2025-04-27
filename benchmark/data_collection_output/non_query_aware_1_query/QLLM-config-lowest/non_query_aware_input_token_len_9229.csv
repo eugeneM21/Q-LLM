@@ -1,0 +1,6 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+9229,11.923,21.22,48,4.03
+Output 0,"According to the document, some examples of AI mentioned are:
+
+1. Google Photos' image labeling feature
+2. COMPAS, a commercial program used by U.S. courts to assess the likelihood of a defendant becoming a recidivist."

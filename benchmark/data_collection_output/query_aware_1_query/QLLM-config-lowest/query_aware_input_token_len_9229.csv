@@ -1,0 +1,8 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+9229,16.673,21.22,111,6.66
+Output 0,"Based on the document, some examples of AI mentioned are:
+
+1. Google's image recognition system that incorrectly labeled a black person as a gorilla due to a ""labor disparity"" issue.
+2. COMPAS, a commercial program used by U.S. courts to assess the likelihood of a defendant becoming a recidivist, which exhibited racial bias despite not being told the races of the defendants.
+
+These examples illustrate how AI systems can sometimes produce biased or inaccurate results, highlighting the need for careful consideration and development of AI systems to ensure fairness and accuracy."

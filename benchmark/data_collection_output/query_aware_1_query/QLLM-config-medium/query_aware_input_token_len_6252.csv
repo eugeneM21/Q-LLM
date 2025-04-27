@@ -1,0 +1,13 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+6252,15.103,19.47,133,8.81
+Output 0,"Here are some examples of AI mentioned in the document:
+
+1. Advanced web search engines (e.g., Google Search)
+2. Recommendation systems (used by YouTube, Amazon, and Netflix)
+3. Virtual assistants (e.g., Google Assistant, Amazon Alexa)
+4. Generative AI systems:
+	* Chatbots (e.g., ChatGPT, Copilot, Gemini, LLaMA)
+	* Text-to-image AI generators (e.g., Stable Diffusion, Midjourney, DALL-E)
+	* Text-to-video AI generators (e.g., Sora)
+
+These are just a few examples of the many AI applications mentioned in the document."

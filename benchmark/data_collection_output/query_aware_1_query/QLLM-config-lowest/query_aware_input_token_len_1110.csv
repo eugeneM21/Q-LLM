@@ -1,0 +1,10 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+1110,6.021,16.25,58,9.63
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+* Knowledge bases
+* Ontologies
+* Default reasoning
+* Sub-symbolic form of commonsense knowledge
+
+These examples are related to the concept of knowledge representation in Artificial Intelligence, which is a crucial aspect of AI development."

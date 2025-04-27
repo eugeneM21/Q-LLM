@@ -1,0 +1,16 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7093,16.933,20.54,146,8.62
+Output 0,"Here are some examples of AI mentioned in the document:
+
+1. Google Search
+2. YouTube recommendation system
+3. Amazon recommendation system
+4. Netflix recommendation system
+5. Virtual assistants: Google Assistant, Siri, Alexa
+6. Autonomous vehicles: Waymo
+7. Generative AI systems: ChatGPT, Copilot, Gemini, Claude, LLaMA
+8. Generative pre-trained transformers (GPT) language models
+9. AlphaGo, a computer Go-playing system
+10. DeepMind's AlphaTensor, a language model
+11. Qwen2-Math, a language model for mathematical problem-solving
+12. SIMA, a type of AI capable of autonomously playing video games."

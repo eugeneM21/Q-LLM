@@ -1,0 +1,18 @@
+model:
+  type: inf-llm
+  path: meta-llama/Meta-Llama-3-8B-Instruct
+  block_size: 32
+  n_init: 32
+  n_local: 256
+  topk: 1
+  repr_topk: 1
+  max_cached_block: 4
+  exc_block_size: 256
+  fattn: false
+  base: 500000
+  distance_scale: 1.0
+  question_weight: 1.0
+
+max_len: 2147483647
+chunk_size: 1024
+conv_type: llama-3-inst

@@ -1,0 +1,5 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+8017,10.434,21.05,44,4.22
+Output 0,"Based on the provided document, the examples of AI mentioned are:
+
+* None. The document does not provide specific examples of AI, but rather discusses the need for electricity to power data centers that are used for AI applications."

@@ -1,0 +1,14 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+6252,14.2,20.38,200,14.08,"Here are some examples of AI mentioned in the document:
+
+1. Google Assistant and Siri: Virtual assistants that can perform tasks and answer questions.
+2. Waymo: Autonomous vehicles that can drive themselves.
+3. ChatGPT: A chatbot that can generate human-like text based on input.
+4. AlphaGo: A computer program that can play Go, a complex board game.
+5. Pluribus: A poker-playing program that can play imperfect-information games.
+6. MuZero: A reinforcement learning model that can play chess, Go, and Atari games.
+7. AlphaStar: A grandmaster-level AI that can play StarCraft II.
+8. SIMA: An AI that can autonomously play nine previously unseen open-world video games.
+9. Qwen2-Math: A language model that can solve math problems with high accuracy.
+10. AlphaTensor, AlphaGeometry, and AlphaProof: AI models that can solve mathematical problems and prove theorems.
+11. Julius:"

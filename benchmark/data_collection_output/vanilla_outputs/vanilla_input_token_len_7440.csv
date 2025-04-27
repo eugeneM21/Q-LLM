@@ -1,0 +1,12 @@
+input_tokens,inference_time_sec,peak_memory_gb,tokens_generated,throughput_tokens_per_sec,output_text
+7440,15.461,21.39,200,12.94,"Here are some examples of AI mentioned in the document:
+
+1. Generative pre-trained transformers (GPT) - a type of large language model that can generate human-like text.
+2. ChatGPT, Copilot, Gemini, and LLaMA - chatbots that use GPT technology to converse with users.
+3. Stable Diffusion, Midjourney, and DALL-E - AI models that can generate images and videos.
+4. Sora - a text-to-video AI generator.
+5. AlphaFold 2 - a protein structure prediction AI model that can approximate the 3D structure of a protein in hours rather than months.
+6. AlphaStar - a grandmaster-level AI agent that can play the game of StarCraft II.
+7. MuZero - a reinforcement learning model that can learn to play games like chess and Go.
+8. Qwen2-Math - a language model that can solve mathematical problems with high accuracy.
+9. rStar-Math - a technique"

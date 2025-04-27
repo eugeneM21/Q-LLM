@@ -1,0 +1,7 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7855,14.858,20.89,97,6.53
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+1. ChatGPT: The document mentions that a Google search uses 1 unit of electrical energy, while a ChatGPT search uses 10 times that amount, indicating the significant computational power required for AI applications like ChatGPT.
+
+Note that the document does not provide a comprehensive list of AI examples, but rather mentions these specific instances to illustrate the growing demand for electrical power driven by the increasing use of AI."

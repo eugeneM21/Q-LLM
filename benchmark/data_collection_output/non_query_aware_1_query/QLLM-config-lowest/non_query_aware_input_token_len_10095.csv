@@ -1,0 +1,10 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+10095,16.29,21.22,84,5.16
+Output 0,"According to the document, some examples of AI mentioned are:
+
+* A system that could identify skin diseases better than dermatologists
+* A system designed to help allocate medical resources
+* A system that defeated a human champion in the game of Go (AlphaGo)
+* A system that was used to assess the likelihood of a defendant becoming a recidivist (COMPAS)
+
+These are the specific examples mentioned in the document."

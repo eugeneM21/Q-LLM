@@ -1,0 +1,10 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7530,11.283,20.58,61,5.41
+Output 0,"Based on the provided document, some examples of AI mentioned are:
+
+* Generative AI
+* Data centers
+* Cloud infrastructure
+* Artificial Intelligence and cryptocurrency
+
+These examples are mentioned in the context of the commercial AI scene, the power consumption of data centers, and the potential growth of AI and cryptocurrency."

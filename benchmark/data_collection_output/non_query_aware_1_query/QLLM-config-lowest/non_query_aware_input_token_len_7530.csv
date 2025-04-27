@@ -1,0 +1,11 @@
+input_tokens,inference_time_sec,peak_memory_GB,tokens_generated,throughput_tokens_per_sec
+7530,14.002,20.58,94,6.71
+Output 0,"Based on the document, some examples of AI mentioned are:
+
+* Web search engines (e.g., Google)
+* Virtual assistants (e.g., Google Assistant, Siri)
+* Generative AI models (e.g., GPT)
+* Recommendation systems (e.g., those used by YouTube, Netflix)
+* Classifiers (e.g., ""if shiny then diamond"")
+
+Note that these are not explicitly stated as examples in the document, but can be inferred from the context."
