@@ -1,3 +1,47 @@
+# Instructions from Eugene and Simon
+
+## Folder Overview
+Following are the main directories to consider:
+
+- `Q-LLM/benchmark` contains the scripts and python files to start running QuickLlama. Think of this as the home directory.
+
+- `Q-LLM/benchmark/prompts` contains the 2 distinct prompt formats for running in Query Aware and Non Query Aware modes.
+
+- `Q-LLM/benchmarks/config` contains the QuickLlama configurations to run. The `Llama3-inf-llm-High.yaml` corresponds to High configuration from our report, `Llama3-inf-llm-low.yaml` corresponds to Medium configuration, and `Llama3-inf-llm-low-low.yaml` corresponds to Low configuration.
+
+- `Q-LLM/benchmark/data_collection_output` contains the outputs of our experiments (GPU performance metrics as well as model generations) in CSV format. This includes single batch (1 query), multi batch (multi query), and vanilla outputs.
+
+- `Q-LLM/benchmark/qllm` contains the inner mechanisms of QuickLlama.
+
+## Instructions to run QuickLlama
+The main file to start running QuickLlama is in `Q-LLM/benchmark/quick_start.py`. There are 4 flags:
+
+- `--prompt`: Prompt to run inference on.
+- `--yaml`: Configuration to run QuickLlama on.
+- `--non_query_aware`: Flag indicating whether we should run in Query Aware or Non Query Aware mode.
+- `--record_csv`: Optional boolean flag specifying whether we should dump output into CSV file. Defaults to not dumping into CSV file.
+
+**NOTE:**
+**If you encounter a CUDA out of memory error, please make sure to type into the terminal `export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True`**
+
+**Sample Command for Non Query Aware Mode with High Config**
+
+`python quick_start.py --prompt prompts/non_query_aware/AI_wikipedia_299_tokens.txt --yaml config/Llama3-inf-llm-High.yaml --non_query_aware true`
+
+**Sample Command for Query Aware Mode with Low Config**
+
+`python quick_start.py --prompt prompts/query_aware/AI_wikipedia_7094_tokens.txt --yaml config/Llama3-inf-llm-low-low.yaml --non_query_aware false`
+
+When running with Query Aware Mode, please keep in mind the specific query must be specified in codebase. Please see how to include your particular query by viewing `Q-LLM/benchmark/quick_start.py` and `extract_question_id_quick_start` function from within `Q-LLM/benchmark/qllm/utils/extract_question.py`. Make sure the query is exactly copied over from the prompt txt file as query aware will only work if there is an exact match. This is because the code finds the positions that the query is located from prompt file.
+
+
+**Sample Command for Non Query Aware Mode with High Config 2 Batched Inference**
+
+`python quick_start.py --prompt prompts/non_query_aware/num_query_2/AI_wikipedia_2x299_tokens.txt --yaml config/Llama3-inf-llm-High.yaml --non_query_aware true`
+
+
+For more details with running QuickLlama, please see our automated shell scripts we used `collect_data_*Llama3_8B.sh`.
+
 # <img src="img/quickllama.png" width="50"> QuickLLaMA: Query-aware Inference Acceleration for Large Language Models
 
 ## Overview
