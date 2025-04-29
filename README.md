@@ -1,4 +1,4 @@
-# Instructions from Eugene and Simon
+# Instructions for 11868 Course
 
 ## Folder Overview
 Following are the main directories to consider:
